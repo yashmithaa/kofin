@@ -12,16 +12,15 @@
             <div class="navbar border-4 shadow-md"></div>
                 <div class = "main flex-col gap-5">
                     
-                        <h1 class="text-gray-50	font-black text-5xl">Automatic Image Caption Generator</h1>
-                        <h2 class="text-gray-50">Welcome to our image caption generator powered by AI. Upload your images below and let our AI describe them for you!Our AI uses machine learning algorithms to analyze uploaded images and generate descriptive captions automatically.</h2>
+                        <h1 class="text-gray-50	font-black text-6xl">Automatic Content Generator</h1>
+                        <h2 class="text-gray-50">Welcome to our Automatic Content Generator! Enter a sentence or phrase below, and our AI model will generate additional text based on your input. Whether you need help with creative writing, summaries, or generating ideas for your graphic design or social media, our AI is here to assist you.</h2>
                         
                     
             
             
             
             
-                <input type="file" id="fileInput" accept=".jpg, .jpeg, .png">
-                <!-- <label for="fileInput" class="upload-button">Choose File</label> -->
+                
         </div>
         </main>
         <div class="w-fixed w-full flex-shrink flex-grow-0 px-2">

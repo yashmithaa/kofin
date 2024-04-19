@@ -12,9 +12,10 @@
             <div class="navbar border-4 shadow-md"></div>
                 <div class = "main flex-col gap-5">
                     
-                        <h1 class="text-gray-50	font-black text-5xl">Automatic Image Caption Generator</h1>
-                        <h2 class="text-gray-50">Welcome to our image caption generator powered by AI. Upload your images below and let our AI describe them for you!Our AI uses machine learning algorithms to analyze uploaded images and generate descriptive captions automatically.</h2>
-                        
+                        <h1 class="text-gray-50	font-black text-7xl gap">Colorize Greyscale Image</h1>
+                        <h2 class="text-gray-50">Welcome to our AI-powered colorization tool! Upload a grayscale image, and our AI model will attempt to add color to it, creating a vibrant and realistic colorized version.
+                            <br>Supported Image Formats: JPEG, PNG
+                            <br>Best Results: Upload high-quality grayscale images with clear details for optimal colorization.<h2>
                     
             
             
