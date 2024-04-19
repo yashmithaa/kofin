@@ -38,7 +38,7 @@
         <button class="items-center gap-9 bg-purple-950 text-2xl
         hover:shadow-lg transform transition hover:-translate-y-1 focus:ring-2
         focus:ring-green-600 ring-offset-2 outline-none
-        focus:shadow-lg" on:click={main_button}>EXPLORE</button>
+        focus:shadow-lg" on:click={main_button}>Explore</button>
         </div>
         <div class = "color_palette border-4">
         <h2 class="text-gray-50	font-black text-4xl"><center>Color Palette Generator</center></h2>

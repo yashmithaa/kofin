@@ -1,43 +1,68 @@
-<div class = "container">
-    <h1><center>Automatic Image Caption Generator</center></h1>
-    <h2>Welcome to our image caption generator powered by artificial intelligence. Upload your images below and let our AI describe them for you!</h2>
-    <h1>How It Works</h1>
-    <h2>Our AI uses machine learning algorithms to analyze uploaded images and generate descriptive captions automatically.</h2>
-    <h1><b>STEP 1</b></h1>
-    <h2>You upload an image using the button above.</h2>
-    <h1><b>STEP 2</b></h1>
-    <h2>Our AI processes the image and generates a caption.</h2>
-    <h1><b>STEP 3</b></h1>
-    <h2>The generated caption will appear below the image upload area.</h2>
-
-    <h1>Upload Image</h1>
-    <input type="file" id="fileInput" accept=".jpg, .jpeg, .png">
-    <label for="fileInput" class="upload-button">Choose File</label>
-</div>
-
-<style>
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            text-align: center;
+<div class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 backdrop-blur-xl">
+    <div class="w-full flex flex-col sm:flex-row flex-wrap sm:flex-nowrap py-4 flex-grow">
+        <!-- fixed-width -->
+        <div class="w-fixed w-full flex-shrink-1 flex-grow-0 px-4">
+            <div class="sticky top-0 p-4 w-full h-full">
+                <!-- nav goes here -->
+                
+            </div>
+        </div>
+        <main class="w-full flex-grow-1 pt-1 px-3">
+            <!-- fluid-width: main content goes here -->
+            <div class="navbar border-4 shadow-md"></div>
+                <div class = "main flex-col gap-5">
+                    
+                        <h1 class="text-gray-50	font-black text-5xl">Automatic Image Caption Generator</h1>
+                        <h2 class="text-gray-50">Welcome to our image caption generator powered by artificial intelligence. Upload your images below and let our AI describe them for you!Our AI uses machine learning algorithms to analyze uploaded images and generate descriptive captions automatically.</h2>
+                        
+                    
+            
+            
+            
+            
+                <input type="file" id="fileInput" accept=".jpg, .jpeg, .png">
+                <!-- <label for="fileInput" class="upload-button">Choose File</label> -->
+        </div>
+        </main>
+        <div class="w-fixed w-full flex-shrink flex-grow-0 px-2">
+            <!-- fixed-width -->
+            <div class="flex sm:flex-col px-2">
+                <!-- sidebar goes here -->
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    
+    
+    <style>
+        .main {
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+            /* background-color: grey; */
+            height: 80vh;
+            
         }
-        h1, h2 {
-            color: #333;
+        .navbar{
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+            /* background-color: grey; */
+            height: 10vh; 
+            margin-bottom: 10px; 
         }
-        input[type="file"] {
-            display: none;
+        @media (min-width: 640px) {
+        .w-fixed {
+            flex: 0 1 230px;
+            min-width: 230px;
         }
-        .upload-button {
-            background-color: darkgrey;
-            color:white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
         }
-        .upload-button:hover {
-            background-color: black;
+        .main h1 {
+            margin-right: 30px;
         }
-</style>
+    
+        
+        
+    
+    </style>
