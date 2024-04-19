@@ -1,3 +1,9 @@
+<script>
+    function generate() {
+        //add code
+    }
+</script>
+
 <div class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 backdrop-blur-xl">
     <div class="w-full flex flex-col sm:flex-row flex-wrap sm:flex-nowrap py-4 flex-grow">
         <!-- fixed-width -->
@@ -14,14 +20,9 @@
                     
                         <h1 class="text-gray-50	font-black text-6xl">Automatic Content Generator</h1>
                         <h2 class="text-gray-50">Welcome to our Automatic Content Generator! Enter a sentence or phrase below, and our AI model will generate additional text based on your input. Whether you need help with creative writing, summaries, or generating ideas for your graphic design or social media, our AI is here to assist you.</h2>
-                        
-                    
-            
-            
-            
-            
-                
-        </div>
+                        <input type = "text">
+                        <button on:click={generate}>GENERATE</button>
+                </div>
         </main>
         <div class="w-fixed w-full flex-shrink flex-grow-0 px-2">
             <!-- fixed-width -->
@@ -31,8 +32,6 @@
         </div>
     </div>
     </div>
-    
-    
     
     <style>
         .main {
