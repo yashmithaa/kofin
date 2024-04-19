@@ -1,3 +1,9 @@
+<script>
+    function generate() {
+        //add code
+    }
+</script>
+
 <div class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 backdrop-blur-xl">
     <div class="w-full flex flex-col sm:flex-row flex-wrap sm:flex-nowrap py-4 flex-grow">
         <!-- fixed-width -->
@@ -15,13 +21,19 @@
                         <h1 class="text-gray-50	font-black text-5xl">Automatic Image Caption Generator</h1>
                         <h2 class="text-gray-50">Welcome to our image caption generator powered by AI. Upload your images below and let our AI describe them for you!Our AI uses machine learning algorithms to analyze uploaded images and generate descriptive captions automatically.</h2>
                         
-                    
             
-            
-            
-            
-                <input type="file" id="fileInput" accept=".jpg, .jpeg, .png">
+                <input type="file" id="fileInput" accept=".jpg, .jpeg, .png"><br>
                 <!-- <label for="fileInput" class="upload-button">Choose File</label> -->
+
+                <div class = "box"></div>
+
+                <button on:click={generate}>GENERATE CAPTION</button><br>
+                <h2>Captions</h2>
+                <div class = "box"></div>
+
+                <h2>Guidelines</h2>
+                <h3>For accurate captions, upload clear and well-defined images.
+                    Avoid blurry or heavily distorted images for better results.</h3>
         </div>
         </main>
         <div class="w-fixed w-full flex-shrink flex-grow-0 px-2">
