@@ -19,12 +19,6 @@
         // link to page
     }
 
-    let menuOpen = false;
-
-    function toggleMenu() {
-        menuOpen = !menuOpen;
-    }
-
 </script>
 
 <div class = "main">
