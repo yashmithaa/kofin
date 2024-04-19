@@ -20,47 +20,99 @@
     }
 
 </script>
+<div class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 backdrop-blur-xl">
+<div class="w-full flex flex-col sm:flex-row flex-wrap sm:flex-nowrap py-4 flex-grow">
+    <!-- fixed-width -->
+    <div class="w-fixed w-full flex-shrink-1 flex-grow-0 px-4">
+        <div class="sticky top-0 p-4 w-full h-full">
+            <!-- nav goes here -->
+            
+        </div>
+    </div>
+    <main class="w-full flex-grow-1 pt-1 px-3">
+        <!-- fluid-width: main content goes here -->
+        <div class="navbar border-4 shadow-md"></div>
+        <div class = "main flex-col gap-5">
+        <h1 class="text-gray-50	font-black text-8xl"><center>DeZign</center></h1>
+        <h2 class="text-gray-50  text-3xl py-5">Where Creativity Meets Purpose</h2>
+        <button class="items-center gap-9 bg-purple-950 text-2xl
+        hover:shadow-lg transform transition hover:-translate-y-1 focus:ring-2
+        focus:ring-green-600 ring-offset-2 outline-none
+        focus:shadow-lg" on:click={main_button}>EXPLORE</button>
+        </div>
+        <div class = "color_palette border-4">
+        <h2 class="text-gray-50	font-black text-4xl"><center>Color Palette Generator</center></h2>
+        <button class="items-center gap-9 bg-purple-950 text-md
+        hover:shadow-lg transform transition hover:-translate-y-1 focus:ring-2
+        focus:ring-green-600 ring-offset-2 outline-none
+        focus:shadow-lg" on:click={color_palette_button}>TRY NOW</button>
+    </div>
 
-<div class = "main">
-    <h1><center>Kofin</center></h1>
-    <button on:click={main_button}>EXPLORE</button>
+    <div class = "font border-4">
+        <h2 class="text-gray-50	font-black text-4xl"><center>Font Generator</center></h2>
+        <button class="items-center gap-9 bg-purple-950 text-md
+        hover:shadow-lg transform transition hover:-translate-y-1 focus:ring-2
+        focus:ring-green-600 ring-offset-2 outline-none
+        focus:shadow-lg" on:click={font_button}>TRY NOW</button>
+    </div>
+
+    <div class = "greyscale border-4">
+        <h2 class="text-gray-50	font-black text-4xl"><center>Colorize Greyscale Image</center></h2>
+        <button class="items-center gap-9 bg-purple-950 text-md
+        hover:shadow-lg transform transition hover:-translate-y-1 focus:ring-2
+        focus:ring-green-600 ring-offset-2 outline-none
+        focus:shadow-lg" on:click={greyscale_button}>TRY NOW</button>
+    </div>
+
+    <div class = "img_caption border-4">
+        <h2 class="text-gray-50	font-black text-4xl"><center>Image Caption Generator</center></h2>
+        <button class="items-center gap-9 bg-purple-950 text-md
+        hover:shadow-lg transform transition hover:-translate-y-1 focus:ring-2
+        focus:ring-green-600 ring-offset-2 outline-none
+        focus:shadow-lg" on:click={img_caption_button}>TRY NOW</button>
+    </div>
+
+    </main>
+    <div class="w-fixed w-full flex-shrink flex-grow-0 px-2">
+        <!-- fixed-width -->
+        <div class="flex sm:flex-col px-2">
+            <!-- sidebar goes here -->
+        </div>
+    </div>
+</div>
 </div>
 
-<div class = "color_palette">
-    <h2><center>Color Palette Generator</center></h2>
-    <button on:click={color_palette_button}>TRY NOW</button>
-</div>
 
-<div class = "font">
-    <h2><center>Font Generator</center></h2>
-    <button on:click={font_button}>TRY NOW</button>
-</div>
-
-<div class = "greyscale">
-    <h2><center>Colorize Greyscale Image</center></h2>
-    <button on:click={greyscale_button}>TRY NOW</button>
-</div>
-
-<div class = "img_caption">
-    <h2><center>Image Caption Generator</center></h2>
-    <button on:click={img_caption_button}>TRY NOW</button>
-</div>
 
 <style>
     .main {
         display: flex;
         justify-content: center; 
         align-items: center; 
-        background-color: grey;
-        height: 100vh; 
+        /* background-color: grey; */
+        height: 80vh;
+        
     }
-
+    .navbar{
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        /* background-color: grey; */
+        height: 10vh; 
+        margin-bottom: 10px; 
+    }
+    @media (min-width: 640px) {
+    .w-fixed {
+        flex: 0 1 230px;
+        min-width: 230px;
+    }
+    }
     .main h1 {
         margin-right: 10px;
     }
 
     .main button {
-        background-color: darkgrey; 
+        /* background-color: darkgrey;  */
         color: white; 
         padding: 10px 20px; 
         border: none; 
@@ -76,7 +128,7 @@
         display: flex;
         justify-content: center; 
         align-items: center; 
-        background-color: grey;
+        /* background-color: grey; */
         height: 20vh; 
         margin-top: 20px;
     }
@@ -86,7 +138,7 @@
     }
 
     .color_palette button {
-        background-color: darkgrey; 
+        /* background-color: darkgrey;  */
         color: white; 
         padding: 10px 20px; 
         border: none; 
@@ -102,7 +154,7 @@
         display: flex;
         justify-content: center; 
         align-items: center; 
-        background-color: grey;
+        /* background-color: grey; */
         height: 20vh; 
         margin-top: 20px;
     }
@@ -113,7 +165,7 @@
 
 
     .font button {
-        background-color: darkgrey; 
+        /* background-color: darkgrey;  */
         color: white; 
         padding: 10px 20px; 
         border: none; 
@@ -129,7 +181,7 @@
         display: flex;
         justify-content: center; 
         align-items: center; 
-        background-color: grey;
+        /* background-color: grey; */
         height: 20vh; 
         margin-top: 20px;
     }
@@ -140,7 +192,7 @@
 
 
     .greyscale button {
-        background-color: darkgrey; 
+        /* background-color: darkgrey;  */
         color: white; 
         padding: 10px 20px; 
         border: none; 
@@ -156,7 +208,7 @@
         display: flex;
         justify-content: center; 
         align-items: center; 
-        background-color: grey;
+        /* background-color: grey; */
         height: 20vh; 
         margin-top: 20px;
     }
@@ -167,7 +219,7 @@
 
 
     .img_caption button {
-        background-color: darkgrey; 
+        /* background-color: darkgrey;  */
         color: white; 
         padding: 10px 20px; 
         border: none; 
