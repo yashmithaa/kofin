@@ -12,8 +12,8 @@
             <div class="navbar border-4 shadow-md"></div>
                 <div class = "main flex-col gap-5">
                     
-                        <h1 class="text-gray-50	font-black text-7xl gap">Colorize Greyscale Image</h1>
-                        <h2 class="text-gray-50">Welcome to our AI-powered colorization tool! Upload a grayscale image, and our AI model will attempt to add color to it, creating a vibrant and realistic colorized version.
+                        <h1 class="text-gray-50	font-black text-6xl gap">Colorize Greyscale Image</h1>
+                        <h2 class="text-gray-50">Our AI model analyzes grayscale image. It then applies colorization techniques based on patterns and features learned from a large dataset of colored images.
                             <br>Supported Image Formats: JPEG, PNG
                             <br>Best Results: Upload high-quality grayscale images with clear details for optimal colorization.<h2>
                     

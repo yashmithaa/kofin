@@ -25,7 +25,7 @@
                 <input type="file" id="fileInput" accept=".jpg, .jpeg, .png"><br>
                 <!-- <label for="fileInput" class="upload-button">Choose File</label> -->
 
-                <div class = "box"></div>
+                <!-- <div class = "box"></div>
 
                 <button on:click={generate}>GENERATE CAPTION</button><br>
                 <h2>Captions</h2>
@@ -34,7 +34,7 @@
                 <h2>Guidelines</h2>
                 <h3>For accurate captions, upload clear and well-defined images.
                     Avoid blurry or heavily distorted images for better results.</h3>
-        </div>
+        </div> -->
         </main>
         <div class="w-fixed w-full flex-shrink flex-grow-0 px-2">
             <!-- fixed-width -->
