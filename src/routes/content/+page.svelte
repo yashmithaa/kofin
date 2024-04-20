@@ -20,8 +20,11 @@
                     
                         <h1 class="text-gray-50	font-black text-6xl">Automatic Content Generator</h1>
                         <h2 class="text-gray-50">Welcome to our Automatic Content Generator! Enter a sentence or phrase below, and our AI model will generate additional text based on your input. Whether you need help with creative writing, summaries, or generating ideas for your graphic design or social media, our AI is here to assist you.</h2>
-                        <input type = "text">
-                        <button on:click={generate}>GENERATE</button>
+                        
+                        
+                            <input type="text" class="bg-gray-50 border border-gray-300 text-gray-900 text-xl rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter a prompt" required />
+                            <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Generate</button>
+                    
                 </div>
         </main>
         <div class="w-fixed w-full flex-shrink flex-grow-0 px-2">

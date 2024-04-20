@@ -31,42 +31,42 @@
     </div>
     <main class="w-full flex-grow-1 pt-1 px-3">
         <!-- fluid-width: main content goes here -->
-        <div class="navbar border-4 shadow-md"></div>
+        <div class="navbar border-4 shadow-md text-gray-50">KOFIN</div>
         <div class = "main flex-col gap-5">
-        <h1 class="text-gray-50	font-black text-8xl"><center>DeZign</center></h1>
+        <h1 class="text-gray-50	font-black text-8xl"><center>DeSign</center></h1>
         <h2 class="text-gray-50  text-3xl py-5">Where Creativity Meets Purpose</h2>
         <button class="items-center gap-9 bg-purple-950 text-2xl
         hover:shadow-lg transform transition hover:-translate-y-1 focus:ring-2
         focus:ring-green-600 ring-offset-2 outline-none
-        focus:shadow-lg" on:click={main_button}>Explore</button>
+        focus:shadow-lg" on:click={main_button}>Explore ></button>
         </div>
-        <div class = "color_palette border-4">
-        <h2 class="text-gray-50	font-black text-4xl"><center>Color Palette Generator</center></h2>
-        <button class="items-center gap-9 bg-purple-950 text-md
+        <div class = "color_palette border-4 flex-col gap-4 p-40">
+        <h2 class="text-gray-50	font-black text-4xl"><center>Colorize Greyscale Image</center></h2>
+        <button class="items-center text-sm bg-purple-950 text-md
         hover:shadow-lg transform transition hover:-translate-y-1 focus:ring-2
         focus:ring-green-600 ring-offset-2 outline-none
         focus:shadow-lg" on:click={color_palette_button}>TRY NOW</button>
     </div>
 
-    <div class = "font border-4">
-        <h2 class="text-gray-50	font-black text-4xl"><center>Font Generator</center></h2>
-        <button class="items-center gap-9 bg-purple-950 text-md
+    <div class = "font border-4 flex-col gap-4 p-40">
+        <h2 class="text-gray-50	font-black text-4xl"><center>Content Generator</center></h2>
+        <button class="items-center text-sm bg-purple-950 text-md
         hover:shadow-lg transform transition hover:-translate-y-1 focus:ring-2
         focus:ring-green-600 ring-offset-2 outline-none
         focus:shadow-lg" on:click={font_button}>TRY NOW</button>
     </div>
 
-    <div class = "greyscale border-4">
-        <h2 class="text-gray-50	font-black text-4xl"><center>Colorize Greyscale Image</center></h2>
-        <button class="items-center gap-9 bg-purple-950 text-md
+    <div class = "greyscale border-4 flex-col gap-4 p-40">
+        <h2 class="text-gray-50	font-black text-4xl"><center>Color Palette Generator</center></h2>
+        <button class="items-center text-sm bg-purple-950 text-md
         hover:shadow-lg transform transition hover:-translate-y-1 focus:ring-2
         focus:ring-green-600 ring-offset-2 outline-none
         focus:shadow-lg" on:click={greyscale_button}>TRY NOW</button>
     </div>
 
-    <div class = "img_caption border-4">
+    <div class = "img_caption border-4 flex-col gap-4 p-40">
         <h2 class="text-gray-50	font-black text-4xl"><center>Image Caption Generator</center></h2>
-        <button class="items-center gap-9 bg-purple-950 text-md
+        <button class="items-center text-sm bg-purple-950 text-md
         hover:shadow-lg transform transition hover:-translate-y-1 focus:ring-2
         focus:ring-green-600 ring-offset-2 outline-none
         focus:shadow-lg" on:click={img_caption_button}>TRY NOW</button>
