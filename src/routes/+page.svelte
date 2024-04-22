@@ -13,8 +13,12 @@
     <main class="w-full flex-grow-1 pt-1 px-3">
         <!-- fluid-width: main content goes here -->
         <div class="navbar border-4 shadow-md text-gray-50 flex-row">
+<<<<<<< HEAD
 
             
+=======
+        
+>>>>>>> front-end
         </div>
         <div class = "main flex-col gap-3 ">
         <h1 class="text-gray-50	font-black text-8xl"><center>Design</center></h1>
@@ -23,7 +27,11 @@
         <button class="items-center gap-9 bg-purple-950 text-2xl
         hover:shadow-lg transform transition hover:-translate-y-1 focus:ring-2
         focus:ring-green-600 ring-offset-2 outline-none
+<<<<<<< HEAD
         focus:shadow-lg font-mono" >Explore </button>
+=======
+        focus:shadow-lg font-mono" >Explore ></button>
+>>>>>>> front-end
         </div>
 
         <div class = "color_palette border-4 flex-col gap-6 p-40 shadow-xl bg-cover bg-center bg-hero-pattern1">
